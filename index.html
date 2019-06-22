@@ -9,7 +9,25 @@
 #menu li {
    float:left;
    list-style-type:none;
+   padding-right: 70px;
 };
+
+ul.foo {
+    display:table;
+    table-layout:fixed;
+    width:500px;
+    padding-bottom: 40px;
+}
+ul.foo li {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    background-color:#00FF00;
+    border-left:1px solid white;
+	padding: 0px 50px 0px 50px;
+	border-radius: 15px 15px 15px 15px;
+}
+
 
 </style>
 
@@ -22,53 +40,54 @@
 	<link rel="stylesheet" href="/app.css"/>
 	<title>東北駆け出しエンジニア会</title>
 	<h1 align="center">東北駆け出しエンジニア会</h1>
-  <nav>
-   <ul id="menu"><!-- -->
-    <li><a href="index.html" >HOME<br>
-	 <img width=50px src="\notePc.png" alt="ホーム"></a></li>
-    <li><a href="member.html" >MEMBER<br>
-	 <img width=50px src="image\member.png" alt="MEMBER"></a></li>
-    <li><a href="subPage1.html" >sub1<br>
-	 <img width=50px src="image\kanfu.png" alt="未定１"></a></li>
-    <li><a href="subPage2.html" >sub2<br>
-	 <img width=50px src="image\database.png" alt="未定２"></a></li>
-   </ul>
-  </nav>
+		<nav>
+			<ul class = "foo">
+				<li><a href="C:\Users\USER\Desktop\東北駆け出しエンジニア会\index.html">HOME<br>
+					<img width=50px src="image\notePc.png" alt="ホーム"></a></li>
+				<li><a href="C:\Users\USER\Desktop\東北駆け出しエンジニア会\member.html" >MEMBER<br>
+					<img width=50px src="image\member.png" alt="MEMBER"></a></li>
+				<li><a href="C:\Users\USER\Desktop\東北駆け出しエンジニア会\subPage1.html" >sub1<br>
+					<img width=50px src="image\kanfu.png" alt="未定１"></a></li>
+				<li><a href="C:\Users\USER\Desktop\東北駆け出しエンジニア会\subPage2.html" >sub2<br>
+					<img width=50px src="image\database.png" alt="未定２"></a></li>
+			</ul>
+		</nav>
 </head>
 	
 
 
 <body>
- 
-  <tr>
-    <td id="side_left" rowspan="2">	
-	</td>
-	 <table width="512">
-	  <tbody>
-	   <tr>
-	    <td width="14">&nbsp;</td>
-		<td width="230">東北駆け出しエンジニア会<br></td>
-	   </tr>
-	   <tr>
-	    <td width="14">&nbsp;</td>
-		<td width="230">発足　　　：　令和元年５月２５日<br></td>
-	   </tr>
-	   <tr>
-	    <td width="14">&nbsp;</td>
-		<td width="230">参加条件　：　東北にゆかりのあるエンジニア<br></td>
-	   </tr>
-	   <tr>
-	    <td width="14">&nbsp;</td>
-		<td width="230">comming soon!<br></td>
-	   </tr>
-	  </tbody>
-	 </table>
-   </tr>
+	<div class="topImage">
+		<img width=500px align="center" src="image\kakedasiEngineer_top.jpg" alt="未定２">
+	</div>
+	<div>
+		<tr>
+		<td id="side_left" rowspan="2"><h4>東北駆け出しエンジニア会</h4></td>
+			<table width="512">
+				<tbody>
+					<tr>
+						<td width="14">&nbsp;</td>
+						<td width="230">発足　　　：　令和元年５月２５日<br></td>
+					</tr>
+					<tr>
+						<td width="14">&nbsp;</td>
+						<td width="230">参加条件　：　東北にゆかりのあるエンジニア<br></td>
+					</tr>
+					<tr>
+						<td width="14">&nbsp;</td>
+						<td width="230">comming soon!<br></td>
+					</tr>
+				</tbody>
+			</table>
+		</tr>
+   </div>
 </body>
+
+
 <footer>
  <div id="prof">
- <h3>Git アカウント</h3>
+ <h3 border="solid">Git アカウント</h3>
  <p>lodge-prot</p>
- <p><a href="https://twitter.com/cotancol_Xu" >https://github.com/lodge-prot</a></p>
+ <p><a href="https://lodge-prot.github.io/" >https://lodge-prot.github.io/</a></p>
  </div>
 </footer>
