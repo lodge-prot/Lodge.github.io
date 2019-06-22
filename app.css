@@ -9,3 +9,13 @@ td {
 	border: solid 1px;
 	padding: 0.5em;
 }
+
+ul.foo li {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    background-color:#00FF00;
+    border-left:1px solid white;
+	padding: 0px 50px 0px 50px;
+	border-radius: 15px 15px 15px 15px;
+}
